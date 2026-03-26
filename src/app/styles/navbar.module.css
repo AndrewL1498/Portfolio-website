@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  background-color: #2b2b2b; /* dark grey */
+  display: flex;
+  justify-content: flex-end; /* pushes items to the right */
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed; /* stays at top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styles for navbar buttons */
+.navList a {
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: relative;
+  padding: 0.5rem 0;
+  margin-left: 1rem; /* spacing between buttons */
+  transition: color 0.2s ease;
+}
+
+/* Red underline using pseudo-element */
+.navList a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px; /* thickness of underline */
+  background-color: red;
+}
+
+/* On hover, expand the underline */
+.navList a:hover::after {
+  width: 100%;
+}
