@@ -2,10 +2,59 @@
 .home {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5rem;
   text-align: center;
   background-color: #1a1a1a;
   color: white;
 }
+
+.textContainer {
+  flex: 1;
+  max-width: 500px;
+}
+
+.textContainer h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.textContainer span {
+  font-size: 1.5rem;
+}
+
+.imageContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.profileImage {
+  object-fit: cover;
+  clip-path: polygon(
+    50% 0%,    /* top point */
+    100% 38%,  /* top right */
+    82% 100%,  /* bottom right */
+    18% 100%,  /* bottom left */
+    0% 38%     /* top left */
+  );
+}
+
+/* @media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .imageContainer {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .textContainer {
+    max-width: 100%;
+  }
+} */
