@@ -9,6 +9,12 @@ export default function Home() {
                 <span>Frontend Developer & Software Engineer</span>
             </div>
 
+            <div className={styles.buttonContainer}>
+                <a href="#contacts" className={styles.contactButton}>
+                    Contact Me
+                </a>
+            </div>
+
             <div className={styles.imageContainer}>
             <Image
                 src="/images/me.png"
