@@ -1,10 +1,33 @@
 .about {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  min-height: 100vh;
   background-color: #1a1a1a;
   color: white;
+  padding: 60px;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: red;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.textContainer {
+  flex: 1;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
