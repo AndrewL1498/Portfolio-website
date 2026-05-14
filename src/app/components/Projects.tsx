@@ -6,24 +6,24 @@ export default function Projects() {
 
     const projects = [
         {
-            title: "Project 1",
+            title: "Personalized Nutrition App",
             Image: "https://i.imgur.com/mgIExN3.png",
-            link: "https://example.com/project1"
+            link: "https://github.com/AndrewL1498/capstone-nutrition-app"
         },
         {
-            title: "Project 1",
+            title: "Dog Adoption Platform",
             Image: "https://i.imgur.com/EgO15cM.png",
-            link: "https://example.com/project1"
+            link: "https://github.com/AndrewL1498/19.10-Dog-Adoption-Platform-Project"
         },
         {
-            title: "Project 1",
+            title: "Star Destroyer Game",
             Image: "https://i.imgur.com/VPT6Z0u.png",
-            link: "https://example.com/project1"
+            link: "https://github.com/AndrewL1498/15.7-Star-Destroyer-Project"
         },
         {
-            title: "Project 1",
+            title: "Space Travel App",
             Image: "https://i.imgur.com/dcoWQMr.png",
-            link: "https://example.com/project1"
+            link: "https://github.com/AndrewL1498/15.12-Space-Travel-Project"
         }
     ];
 
@@ -47,6 +47,8 @@ export default function Projects() {
                 height={200}
                 className={styles.image} 
                 />
+                <h2>{project.title}</h2>
+
               </a>
           ))}
           

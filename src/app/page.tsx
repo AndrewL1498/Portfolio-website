@@ -5,15 +5,19 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contacts";
 
+
 export default function Page() {
   return (
-    <>
+    <div className="page">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </>
-  )
+
+      <main className="container">
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+    </div>
+  );
 }
