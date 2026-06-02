@@ -7,13 +7,16 @@ export default function Home() {
             <div className={styles.textContainer}>
                 <h1>Hi, I'm Andrew</h1>
                 <span>Frontend Developer & Software Engineer</span>
-            </div>
 
             <div className={styles.buttonContainer}>
                 <a href="#contacts" className={styles.contactButton}>
                     Contact Me
                 </a>
             </div>
+
+            </div>
+
+        
 
             <div className={styles.imageContainer}>
             <Image

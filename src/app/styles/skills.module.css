@@ -1,5 +1,5 @@
 .skills {
-  min-height: 100vh;
+  min-height: 75vh;
   background-color: #1a1a1a;
   color: white;
   padding: 40px 40px;
@@ -16,9 +16,7 @@
   list-style: none;
   padding: 0;
   margin: 0 auto;
-
   max-width: 500px;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 80px;

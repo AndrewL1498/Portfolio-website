@@ -10,7 +10,7 @@ export default function About() {
             <div className={styles.content}>
             <div className={styles.imageContainer}>
                 <Image
-                    src="/images/me.png"
+                    src="/images/me 2.jpeg"
                     alt="Andrew Lindsey"
                     width={400} //adding width and height here as opposed to in css to prevent layout shift
                     height={400}

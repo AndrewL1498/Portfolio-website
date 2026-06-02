@@ -50,18 +50,22 @@
 .contactButton {
   display: inline-block;        /* allows padding + sizing */
   padding: 0.75rem 1.5rem;
-  background-color: red;        /* red background */
+  background-color: rgb(255, 0, 0);        /* red background */
   color: white;                 /* white text */
   text-decoration: none;        /* removes underline */
   border-radius: 6px;
   font-weight: 600;
   margin-top: 1.5rem;
-  transition: background-color 0.2s ease;
+  transition:
+  background-color 0.2s ease,
+  transform 0.2s ease;
+  
 }
 
 /* Hover effect */
 .contactButton:hover {
   background-color: darkred;
+  transform: scale(1.05);
 }
 
 /* @media (max-width: 768px) {

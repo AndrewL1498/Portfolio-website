@@ -1,5 +1,5 @@
 .projects {
-  min-height: 100vh;
+  min-height: 75vh;
   background-color: #1a1a1a;
   color: white;
   padding: 40px 40px;
@@ -9,6 +9,7 @@
   text-align: center;
   margin-bottom: 60px;
   font-size: 3rem;
+  color: red;
 }
 
 .grid {
@@ -28,8 +29,21 @@
   transform: translateY(-8px);
 }
 
+.card:hover .image {
+  transform: scale(1.05);
+}
+
 .image {
   width: 100%;
   height: auto;
   border-radius: 12px;
+
+  
+}
+
+.projects h2 {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }

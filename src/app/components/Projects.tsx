@@ -38,6 +38,7 @@ export default function Projects() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
+              className={styles.card}
               >
 
                 <Image 
